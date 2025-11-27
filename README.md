@@ -1,6 +1,6 @@
 # Factored Offline Reinforcement Learning for Medicaid Care Management
 
-This repository contains the code for the paper **"Factored Offline Reinforcement Learning for Personalized Medicaid Care Management"** submitted to *Nature Scientific Reports*.
+This repository contains the code for the paper **"Factored Offline Reinforcement Learning for Personalized Medicaid Care Management"**.
 
 ## Overview
 
@@ -173,7 +173,6 @@ If you use this code in your research, please cite:
 @article{basu2025factored,
   title={Factored Offline Reinforcement Learning for Personalized Medicaid Care Management},
   author={Basu, Sanjay and Patel, Sadiq Y. and Sheth, Parth and Muralidharan, Bhairavi and Elamaran, Namrata and Kinra, Aakriti and Batniji, Rajaie},
-  journal={Nature Scientific Reports},
   year={2025}
 }
 ```

@@ -1,6 +1,4 @@
-# Offline Reinforcement Learning for Care Management
-
-This repository contains the code and supplementary materials for the paper **"Offline Reinforcement Learning for Care Management: Addressing Sparse Rewards, Temporal Dependencies, and Fairness in Medicaid Populations"**.
+# Offline Reinforcement Learning for Population Health Care Management
 
 ## Overview
 
@@ -13,8 +11,6 @@ We present an offline reinforcement learning framework designed for high-dimensi
 
 ## Repository Structure
 
-- `manuscript/`: Contains the main manuscript and appendix in Markdown format.
-- `figures/`: Figures from the manuscript.
 - `scripts/`: Python scripts for data preparation, training, and evaluation.
 - `models/`: Model architecture definitions (LSTM policy, fairness constraints).
 
@@ -47,7 +43,7 @@ python scripts/phase3_evaluate.py
 
 If you use this code in your research, please cite:
 
-> Basu S, et al. Offline Reinforcement Learning for Care Management: Addressing Sparse Rewards, Temporal Dependencies, and Fairness in Medicaid Populations. 2025.
+> Basu S, et al. Offline Reinforcement Learning for Population Health Care Management: Addressing Sparse Rewards, Temporal Dependencies, and Fairness in Medicaid Populations. 2025.
 
 ## License
 

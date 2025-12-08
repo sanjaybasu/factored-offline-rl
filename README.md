@@ -2,13 +2,7 @@
 
 ## Overview
 
-We present an offline reinforcement learning framework designed for high-dimensional clinical action spaces, sparse outcomes, and fairness constraints. The system uses:
-- **Factored Action Spaces:** To handle 97+ distinct intervention combinations.
-- **Reward Shaping:** To address sparse binary outcomes (ED visits, hospitalizations).
-- **LSTM + Attention:** To model temporal dependencies in patient history.
-- **Doubly Robust Off-Policy Evaluation:** To provide low-variance policy value estimates.
-- **Fairness Constraints:** To ensure demographic parity in intervention allocation.
-
+We present an offline reinforcement learning framework designed for high-dimensional clinical action spaces, sparse outcomes, and fairness constraints
 ## Repository Structure
 
 - `scripts/`: Python scripts for data preparation, training, and evaluation.

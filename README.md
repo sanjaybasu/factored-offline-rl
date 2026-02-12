@@ -16,21 +16,6 @@ This work presents a methodological framework for applying offline reinforcement
 2. **High-dimensional action spaces** (97 observed action combinations from 240 theoretical)
 3. **Confounding by indication** (sicker patients receive more intensive care)
 
-### Key Methodological Contributions
-
-- **Factored Action Spaces**: Decompose actions into interpretable components (modality × provider × goal × urgency) enabling parameter-efficient learning
-- **Multi-Component Reward Shaping**: Converts sparse binary outcomes into informative training signals using primary outcomes, engagement metrics, and intermediate clinical milestones
-- **Doubly Robust Off-Policy Evaluation**: Stable policy value estimation with 44.2% effective sample size vs. 0.0% for naive importance sampling
-- **Fairness-Constrained Training**: Demographic parity and proportional parity constraints ensure equitable resource allocation across racial/ethnic groups
-
-### Main Findings
-
-- Learned policy achieves **performance parity** with observed clinician behavior via doubly robust off-policy evaluation
-- Multi-component reward shaping increases non-zero reward observations from 0.6% to 32.1%
-- Fairness constraints reduce demographic parity gap from 3.5 to 0.8 percentage points with minimal performance trade-off
-- Conservative Q-Learning (CQL) comparison confirms robustness of AWR approach
-- The framework demonstrates **methodological feasibility** of offline RL in healthcare while maintaining appropriate causal humility
-
 ---
 
 ## Repository Structure
@@ -162,7 +147,6 @@ Fairness-constrained training reduces the demographic parity gap in home visit a
 - **Reward weights**: Policy robust across 16 weight configurations (Table S14)
 - **Mediation**: SDoH mediators explain substantial proportion of race-outcome associations (Table S16)
 
-See manuscript and appendix for complete results.
 
 ---
 
@@ -217,8 +201,6 @@ where rho_i = pi(A_i|X_i) / pi_b(A_i|X_i) and Q is the outcome model (XGBoost).
 
 **Fairness Constraints:**
 Demographic parity penalty during training ensures equitable intervention allocation across racial/ethnic groups. Proportional parity metric validates allocation is proportional to clinical need.
-
-See manuscript for complete technical details.
 
 ---
 

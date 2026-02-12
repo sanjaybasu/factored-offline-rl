@@ -4,10 +4,7 @@
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 
-Official code repository for **"Factored Offline Reinforcement Learning for Personalized Medicaid Care Management: A Methodological Framework with Doubly Robust Evaluation"** (revised for *npj Digital Public Health*).
-
-**Authors:** Sanjay Basu, MD, PhD  
-**Institutions:** Waymark Care, UCSF San Francisco General Hospital
+Official code repository for **"Factored Offline Reinforcement Learning for Personalized Medicaid Care Management: A Methodological Framework with Doubly Robust Evaluation"** 
 
 ---
 
@@ -243,10 +240,7 @@ If you use this code or methodology, please cite:
 @article{basu2026factored,
   title={Factored Offline Reinforcement Learning for Personalized Medicaid Care Management: A Methodological Framework with Doubly Robust Evaluation},
   author={Basu, Sanjay},
-  journal={npj Digital Public Health},
-  year={2026},
-  note={Under review}
-}
+  year={2026}}
 ```
 
 ---
@@ -255,21 +249,6 @@ If you use this code or methodology, please cite:
 
 **Sanjay Basu, MD, PhD**  
 Email: sanjay.basu@waymarkcare.com  
-Affiliation: Waymark Care, UCSF San Francisco General Hospital
-
-For questions about:
-- **Methods**: See manuscript or open an issue
-- **Data access**: Contact author (subject to HIPAA regulations)
-- **Collaboration**: Email directly
-
----
-
-## Acknowledgments
-
-We thank:
-- Waymark care teams for meticulous intervention documentation
-- Anonymous reviewers for constructive feedback
-- Medicaid beneficiaries whose care made this research possible
 
 ---
 
@@ -277,18 +256,4 @@ We thank:
 
 This project is licensed under the Apache License 2.0 - see [LICENSE](LICENSE) for details.
 
-Copyright 2026 Waymark Care
-
----
-
-## Related Work
-
-- **AI Clinician**: Komorowski et al. (2018) - Sepsis treatment RL
-- **Causal Forests**: Wager & Athey (2018) - HTE estimation
-- **Doubly Robust Estimation**: Robins et al. (1994), Bang & Robins (2005)
-- **Offline RL Survey**: Levine et al. (2020), Prudencio et al. (2023)
-
----
-
-**Last Updated**: February 12, 2026
-**Version**: 3.0 (Revised per reviewer feedback, npj Digital Public Health)
+Copyright 2026 Waymark 

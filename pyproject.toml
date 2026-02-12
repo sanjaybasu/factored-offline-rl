@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "factored-offline-rl"
+version = "3.0.0"
+description = "Factored Offline Reinforcement Learning for Personalized Medicaid Care Management"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.12"
+authors = [
+    {name = "Sanjay Basu", email = "sanjay.basu@waymarkcare.com"},
+]
+keywords = ["reinforcement-learning", "offline-rl", "healthcare", "medicaid", "fairness"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.24.0,<2.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "pyarrow>=12.0.0",
+    "xgboost>=1.7.4",
+    "scipy>=1.10.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+cql = ["d3rlpy>=2.0.0"]
+tuning = ["optuna>=3.1.0"]
+dev = ["pytest>=7.0", "ruff>=0.1.0"]
+
+[project.urls]
+Homepage = "https://github.com/sanjaybasu/factored-offline-rl"
+Paper = "https://github.com/sanjaybasu/factored-offline-rl"
+
+[tool.setuptools.packages.find]
+include = ["src*"]

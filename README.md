@@ -27,12 +27,6 @@ factored_rl_github/
 ├── pyproject.toml                               # Package metadata and dependencies
 ├── requirements.txt                             # Python dependencies (pip)
 │
-├── manuscripts/                                 # Submission materials
-│   ├── main_manuscript.md                       # Revised manuscript
-│   ├── appendix.md                              # Supplementary materials (Tables S1-S16)
-│   ├── revision_letter.md                       # Point-by-point response to reviewers
-│   └── figures/                                 # All manuscript figures
-│
 ├── src/                                         # Core library code
 │   ├── __init__.py                              # Package init
 │   ├── factored_action_space.py                 # Action space definition
@@ -46,13 +40,6 @@ factored_rl_github/
 │   └── evaluate_policy.py                       # Policy evaluation utilities
 │
 ├── scripts/                                     # Analysis pipeline
-│   └── 03_revision_analyses/                    # Revision-specific analyses
-│       ├── run_cql_baseline.py                  # CQL comparison (R1.1, R2.5)
-│       ├── window_length_sensitivity.py         # LSTM window sensitivity (R2.2)
-│       ├── reward_weight_sensitivity.py         # Reward weight grid search (R1.2, R2.3)
-│       ├── proportional_parity_analysis.py      # Proportional parity fairness (R2.4)
-│       ├── mediation_analysis.py                # Race-outcome mediation (R2.1)
-│       └── redraw_figure1.py                    # Figure 1 with larger fonts (R1.3)
 │
 ├── examples/                                    # Usage examples
 │   └── synthetic_data_example.py                # Synthetic data example
